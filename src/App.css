@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body{
+  background: url(https://images.pexels.com/photos/1909572/pexels-photo-1909572.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header-nav{
+  background-image: linear-gradient(black,black,rgba(0,0,0,0.5));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#main-carousel{
+  min-height: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-black{
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.width-80{
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.width-10{
+  width: 10%
+}
+
+.opacity-0{
+  opacity:1.0!important;
+}
+
+.opacity-1{
+  opacity:0.9!important;
+}
+
+.opacity-2{
+  opacity:0.8!important;
+}
+
+.opacity-3{
+  opacity: 0.7!important;
+}
+
+.opacity-4{
+  opacity:0.5!important;
+}
+
+.opacity-5{
+  opacity:0.2!important;
 }
