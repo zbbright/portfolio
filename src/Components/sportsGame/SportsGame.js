@@ -22,7 +22,7 @@ function Audio(props){
                 return <div className="d-flex flex-fill flex-column border rounded-lg p-3 bg-warning m-sm-3">
                 <img height="200px" width="200px" className="rounded-circle mx-auto" src={props.logo} alt="logo img"/>
                 <h1 className="mx-auto">{props.name}</h1>
-                <button onClick={props.shoot} className="btn btn-primary btn-lg">Shoot &#40;press {props.shortcut}&#41;</button>
+                <button onClick={props.shoot} className="btn btn-primary btn-lg">Shoot &#40;press &lsquo;{props.shortcut}&rsquo;&#41;</button>
                 <h3 className="mx-auto">Shots: {props.shots}</h3>
                 <h3 className="mx-auto">Points: {props.points}</h3>
                 <h3 className="mx-auto">Accuracy: {Math.floor((props.points / props.shots)*100)}%</h3>
@@ -31,7 +31,7 @@ function Audio(props){
                 return <div className="d-flex flex-fill flex-column border rounded-lg p-3 bg-warning m-sm-3">
                 <img height="200px" width="200px" className="rounded-circle mx-auto" src={props.logo} alt="logo img"/>
                 <h1 className="mx-auto">{props.name}</h1>
-                <button onClick={props.shoot} className="btn btn-primary btn-lg">Shoot &#40;press {props.shortcut}&#41;</button>
+                <button onClick={props.shoot} className="btn btn-primary btn-lg">Shoot &#40;press &lsquo;{props.shortcut}&rsquo;&#41;</button>
                 <h3 className="mx-auto">Shots: {props.shots}</h3>
                 <h3 className="mx-auto">Points: {props.points}</h3>
                 </div>
@@ -51,7 +51,7 @@ function Audio(props){
     }
 
     function Reset (props){
-        return <button onClick={props.reset} className="btn btn-lg btn-danger mx-3"><strong>Resets (press r): {props.resets}</strong></button> 
+        return <button onClick={props.reset} className="btn btn-lg btn-danger mx-3"><strong>Resets (press 'r'): {props.resets}</strong></button> 
     }
 
     class Game extends React.Component{
@@ -130,8 +130,8 @@ function Audio(props){
                     <Banner venue={this.props.venue} />
                     <Scoreboard points1={this.state.points1} reset={this.reset} resets={this.state.resets} points2={this.state.points2}/>
                     <div className="d-flex justify-content-around">
-                        <Team name={this.props.team1} logo={this.props.logo1} shoot={this.shoot1} shortcut="&lArr;" shots={this.state.shots1} points={this.state.points1} />
-                        <Team name={this.props.team2} logo={this.props.logo2} shoot={this.shoot2} shortcut="&rArr;" shots={this.state.shots2} points={this.state.points2} />
+                        <Team name={this.props.team1} logo={this.props.logo1} shoot={this.shoot1} shortcut="&larr;" shots={this.state.shots1} points={this.state.points1} />
+                        <Team name={this.props.team2} logo={this.props.logo2} shoot={this.shoot2} shortcut="&rarr;" shots={this.state.shots2} points={this.state.points2} />
                    </div>
             </div>)
         }
