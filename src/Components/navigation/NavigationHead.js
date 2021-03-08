@@ -31,8 +31,8 @@ function NavigationHead(props){
       <div className="jumbotron-fluid bg-primary opacity-2 text-white">
         <div className="container-fluid p-2">
         <h3 className="ml-4">Zachary Bright,</h3>
-        <h3 className="font-weight-lighter ml-5 text-lowercase">React/Javascript Developer</h3>
-        <h5 className="ml-3 font-italic">New to the tech industry, seeking opportunities to grow with your company</h5>
+        <h2 className="ml-5 text-lowercase text-body">React/Javascript Developer</h2>
+        <h5 className="ml-4 font-italic">New to the tech industry, seeking opportunities to grow with your company</h5>
         </div>
       </div>
     </div>
