@@ -6,19 +6,19 @@ function NavigationFoot(props){
         <nav className="navbar navbar-dark justify-content-center">
         <ul className="navbar-nav">
             <li className="nav-item">
-                <Link className="nav-link" to="/portfolio" >Home</Link>
+                <Link className="nav-link" to="/" >Home</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/portfolio/contact" >Contact</Link>
+                <Link className="nav-link" to="/contact" >Contact</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/portfolio/about" >About</Link>
+                <Link className="nav-link" to="/about" >About</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/portfolio/projects" >Projects</Link>
+                <Link className="nav-link" to="/projects" >Projects</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portfolio/resume" >Resumé</Link>
+                <Link className="nav-link" to="/resume" >Resumé</Link>
               </li>
           </ul>       
       </nav>

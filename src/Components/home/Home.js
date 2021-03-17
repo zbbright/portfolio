@@ -27,7 +27,7 @@ function Home(props){
     <div className="card mx-auto width-80">
         <div className="card-body shadow">
             <h3>Curious about my tech skills?</h3>
-            <p>Through my coding bootcamp, I've been a top-performer, graduating with grades above 100%.  I have a solid grasp on the languages I've been exposed to, and have pushed myself to learn the concepts that lie just beyond the material taught, such as deploying usable websites like the one you're accessing or teaching myself to use the Bootstrap 4 style library.<br/>My tech skills include single-page React Apps, Javascript programming, Bootstrap 4, HTML, and CSS.  I have experience with remote work through six-month, fully remote Frontend Web Developer certification bootcamp, utilizing standard tools like Slack, Zoom, and Google Docs.</p>
+            <p>Through my coding bootcamp, I've been a top-performer, graduating with grades above 100%.  I have a solid grasp on the languages I've been exposed to, and have pushed myself to learn the concepts that lie just beyond the material taught, such as deploying usable websites like the one you're accessing or teaching myself to use the Bootstrap 4 style library.<br/><br/>My tech skills include single-page React Apps, Javascript programming, Bootstrap 4, HTML, and CSS.  I have experience with remote work through six-month, fully remote Frontend Web Developer certification bootcamp, utilizing standard tools like Slack, Zoom, and Google Docs.</p>
             <p><Link className="nav-link" to="/portfolio/projects">See some of my recent projects</Link>or <Link className="nav-link" to="/portfolio/resume">View my resume</Link></p>
         </div>
       </div>
